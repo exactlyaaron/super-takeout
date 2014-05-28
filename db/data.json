@@ -1,0 +1,15 @@
+{"name": "bacon", "menu": "breakfast", "cost": 2.50, "calories": 300}
+{"name": "eggs", "menu": "breakfast", "cost": 3.25, "calories": 200}
+{"name": "pancakes", "menu": "breakfast", "cost": 5.55, "calories": 400}
+{"name": "waffles", "menu": "breakfast", "cost": 5.20, "calories": 600}
+{"name": "cereal", "menu": "breakfast", "cost": 3.00, "calories": 250}
+{"name": "burger", "menu": "lunch", "cost": 5.65, "calories": 700}
+{"name": "french fries", "menu": "lunch", "cost": 2.35, "calories": 550}
+{"name": "salad", "menu": "lunch", "cost": 1.79, "calories": 150}
+{"name": "soup", "menu": "lunch", "cost": 4.39, "calories": 200}
+{"name": "sandwich", "menu": "lunch", "cost": 4.70, "calories": 375}
+{"name": "steak", "menu": "dinner", "cost": 10.25, "calories": 890}
+{"name": "pasta", "menu": "dinner", "cost": 8.15, "calories": 475}
+{"name": "salmon", "menu": "dinner", "cost": 8.45, "calories": 835}
+{"name": "sushi", "menu": "dinner", "cost": 5.50, "calories": 445}
+{"name": "pizza", "menu": "dinner", "cost": 7.50, "calories": 790}

@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+*:focus {
+  outline:none;
+}
+
+.clear {
+  width:100%;
+  clear:both;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color:#18d596;
+  color:#fff;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+#dashboard {
+  padding:10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #4cf2af;
+
+  #user {
+    float:left;
+    padding-top: 15px;
+    margin-right: 15px;
+  }
+}
+
+#total-wrapper {
+  padding:10px 0px 10px 10px;
+  margin-top: 10px;
+  border-top: 3px solid #4cf2af;
+
+  #total {
+    float:right;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top:12px;
+  }
+
+  #total:before {
+    content:'TOTAL: ';
+  }
+}
+
+h1 {
+  display:inline-block;
+  margin-right:15px;
+  font-size: 40px;
+  margin-bottom:0;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0px 3px 0px #10a973;
+}
+
+form#login {
+  margin-top: 20px;
+}
+
+#title {
+  text-align:center;
+
+  i{
+    font-size: 40px;
+    text-shadow: 0px 3px 0px #10a973;
+  }
+
+}
+
+select {
+  margin-right: 5px;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  color:#333;
+  border-radius: 3px;
+  border-bottom: 3px solid #ccc;
+  margin: 5px 5px 5px 0;
+}
+
+input[type='number']{
+  width: 50px;
+  text-align:center;
+}
+
+input:focus {
+  border-bottom: 3px solid #ea6b16;
+}
+
+button {
+  color:#fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color:#ea6b16;
+  border:none;
+  border-bottom: 3px solid #cf5611;
+  margin: 5px 5px 5px 0;
+}
+
+button:hover {
+  background-color:#cd5510;
+  border-bottom: 3px solid #b23e0d;
+}
+
+button#add {
+  float:right;
+  margin-right:0;
+}
+
+button#submit {
+  float:right;
+  margin-right:0;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+a.remove {
+  color:#fff;
+  font-size: 20px;
+  padding: 0 10px;
+  display:inline-block;
+  border-radius: 3px;
+  background-color:#ea6b16;
+  border:none;
+  border-bottom: 3px solid #cf5611;
+}
+
+a.remove:hover {
+  background-color:#cd5510;
+  border-bottom: 3px solid #b23e0d;
+}
+
+.item-cost {
+  float:right;
+
+  p{
+    display:inline-block;
+    margin-right: 10px;
+  }
+}
+
+.order {
+  display:inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #fff;
+
+  .left {
+    float:left;
+  }
+
+  .right{
+    float:right;
+  }
+}

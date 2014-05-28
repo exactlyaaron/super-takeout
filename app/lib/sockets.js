@@ -30,8 +30,9 @@ function addUserToSocket(socket){
   //     socket.emit('online');
   //   });
   // });
-
+  console.log('COOKIE------------------');
   console.log(decoded);
+  console.log('------------------------');
 }
 
 function decode(string) {

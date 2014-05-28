@@ -1,0 +1,16 @@
+extends ../shared/template
+
+block content
+  h1= title
+  .clear
+
+  each order in orders
+    .order
+      p= order.date
+      each obj in order.meal
+        p.left= obj.qty
+        p.right= obj.food.name
+        .clear
+      .clear
+      h3 $#{order.totalCost}
+      h3 CALS: #{order.totalCalories}
